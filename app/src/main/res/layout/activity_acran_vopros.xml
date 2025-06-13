@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2C5FF"
+    tools:context=".AcranVopros">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="438dp"
+        android:layout_height="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/polit" />
+
+    <Chronometer
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="20"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="cursive"
+        android:text="Экзамен"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="422dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip3"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:buttonTint="#730073"
+                android:buttonTintMode="src_in"
+                android:checkable="true"
+                android:clickable="true"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                app:chipBackgroundColor="#D762F7"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip4"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="2"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip5"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="3"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip6"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="4"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip7"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="5"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip8"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="6"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip9"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="7"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip10"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="8"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip11"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="9"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip12"
+                android:layout_width="60dp"
+                android:layout_height="66dp"
+                android:layout_weight="1"
+                android:backgroundTint="#730073"
+                android:text="10"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#1CAFA7" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="428dp"
+        android:layout_height="709dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="148dp"
+            android:layout_height="144dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="304dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="195dp"
+            android:layout_height="203dp"
+            android:layout_marginTop="168dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="195dp"
+            android:layout_height="203dp"
+            android:layout_marginTop="512dp"
+            android:layout_marginEnd="292dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="104dp"
+            android:layout_height="91dp"
+            android:layout_marginTop="544dp"
+            android:layout_marginEnd="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="104dp"
+            android:layout_height="91dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="272dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#9437AD"
+            android:text="Какие осложнения чаще всего возникают непосредственно после лечения хронического верхушечного периодонтита?"
+            android:textColor="#580058"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="412dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#9437AD"
+            android:text="обострение воспалительного процесса в периодонте, проявляющееся упорными головными болями"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="412dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="144dp"
+            android:background="#9437AD"
+            android:text="приступообразные боли с продолжительным болевым приступом, возникающие в ночное время"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="429dp"
+            android:layout_height="187dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="280dp"
+            android:background="#9437AD"
+            android:text="самопроизвольные приступообразные  боли с коротким болевым приступом боли, усиливающиеся при действии химический и температурных раздражителей"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#D762F7"
+        android:rotation="-180"
+        app:icon="@android:drawable/ic_media_next"
+        app:iconSize="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Thems">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F2C5FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".Bilet">
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="120dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="724dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="152dp"
+            android:layout_height="176dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginBottom="332dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="448dp"
+            android:layout_height="129dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/polit" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Темы"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="225dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="268dp"
+            android:layout_marginBottom="284dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="278dp"
+            android:layout_height="259dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="44dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/poliu" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="111dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#9C27B0"
+            android:text="Home"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="400dp"
+            android:layout_height="333dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView16"
+            app:srcCompat="@drawable/textyo" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="395dp"
+            android:layout_height="248dp"
+            android:layout_marginTop="428dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView16"
+            app:srcCompat="@drawable/textyo" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="231dp"
+            android:layout_height="68dp"
+            android:gravity="center"
+            android:text="Особенности строения полости рта"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView31"
+            app:layout_constraintStart_toStartOf="@+id/imageView31"
+            app:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="231dp"
+            android:layout_height="68dp"
+            android:gravity="center"
+            android:text="Верхнечелюстной нерв"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView32"
+            app:layout_constraintStart_toStartOf="@+id/imageView32"
+            app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="374dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="60dp"
+            android:text="Все мышцы челюстно-лицевой области состоят из нескольких самостоятельных групп и объединяются в одно целое лишь с анатомической точки зрения и в соответствии с их конечной комплексной функцией."
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView32"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toStartOf="@+id/imageView32"
+            app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="383dp"
+            android:layout_height="248dp"
+            android:text="Полость рта ограничена: спереди — губами; сзади — мягким нёбом и условной плоскостью, проведенной через задние небные дужки (здесь проходит граница между полостью рта и полостью глотки), сверху — твердым нёбом, отделяющим ее от полости носа; снизу — диафрагмой дна полости рта и мышцами языка; с боков — слизистой оболочкой щек"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView31"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="@+id/imageView31"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
